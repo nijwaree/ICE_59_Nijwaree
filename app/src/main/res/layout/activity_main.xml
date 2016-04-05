@@ -7,10 +7,37 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ice_pbru.suksaovavimon.nijwaree.ice_59_nijwaree.MainActivity">
+    tools:context="ice_pbru.suksaovavimon.nijwaree.ice_59_nijwaree.MainActivity"
+    android:background="@mipmap/hhhh">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Computer Lab"
+            android:id="@+id/textView"
+            android:layout_gravity="top"
+            android:gravity="center_horizontal"
+            android:textSize="55dp"
+            android:textStyle="bold"
+            android:background="#ec96d5f9" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="803dp"
+            android:id="@+id/listView" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="About me"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:textSize="25dp"
+        android:background="#ec96d5f9" />
 </RelativeLayout>
